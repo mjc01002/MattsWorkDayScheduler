@@ -49,5 +49,7 @@ $('#17').html(localStorage.tasks17);
 $('#18').html(localStorage.tasks18);
 $('#19').html(localStorage.tasks19);
 
-
+setTimeout(function() {
+    location.reload();
+  }, 30000);
   
