@@ -1,1 +1,4 @@
-# Work Day Scheduler Starter Code
+# Matt's Work Day Scheduler
+This website allows you to schedule your work day starting at 7 AM and going to 7PM.  You can put in tasks for each hour and the schedules color updates based on the current hour.  If the hour is in the past it will be colored gray, if the hour is the current hour it will be red, and if the hour is in the future it will be green.
+
+This let's you keep track of your day easily. 
