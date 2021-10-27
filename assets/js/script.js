@@ -55,7 +55,7 @@ setTimeout(function() {
   }, 300000);
   console.log(hour);
 
-//clear text areas after the day is over at 10PM at night.  Also resets text areas with a reload. 
+//clear text areas after the day is over at 10PM at night
 $(document).ready(function() {
     
     if(hour == 22){
