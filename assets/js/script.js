@@ -49,7 +49,20 @@ $('#17').html(localStorage.tasks17);
 $('#18').html(localStorage.tasks18);
 $('#19').html(localStorage.tasks19);
 
+// automatically refresh page
 setTimeout(function() {
     location.reload();
-  }, 30000);
-  
+  }, 300000);
+  console.log(hour);
+
+//clear text areas after the day is over at 10PM at night.  Also resets text areas with a reload. 
+$(document).ready(function() {
+    
+    if(hour == 22){
+    localStorage.clear();
+    setTimeout(function () {
+        location.reload(true);
+      }, 5000);
+} else{}
+});
+
