@@ -9,4 +9,4 @@ The website will also store your tasks for the day so if you leave the website, 
 ![Image of Website](https://github.com/mjc01002/MattsWorkDayScheduler/blob/main/assets/img/website%20screenshot.PNG)
 
 ## Link to Website
-https://mjc01002.github.io/MattsWorkDayScheduler/
+[Deployed Link](https://mjc01002.github.io/MattsWorkDayScheduler/)
