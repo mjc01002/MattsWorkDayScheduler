@@ -1,8 +1,17 @@
+test{
+  --primary-color:rgb(52, 110, 148);
+  --textcolor: rgb(232, 139, 46);
+  --background: rgb(61,56,69);
+  --highlight: rgb(209,196,73);
+  --red: rgb(240,78,34);
+  --green: rgb(132,189,151)
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
+  line-height: 3;
   padding:0px;
+  text-align: center;
 }
 
 textarea{
@@ -20,6 +29,7 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  
 }
 
 
@@ -74,13 +84,3 @@ textarea{
 }
 
 
-$(".saveBtn").click(function() {
-  for( i=7; i<20; i++ ) {
-      var y = "#"+ i;
-
-      var tasksa = "tasks" + i;
-      tasksa = $(y).val();
-
-  localStorage.setItem("tasks" + i, tasksa);
-  
-};

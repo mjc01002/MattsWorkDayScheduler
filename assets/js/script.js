@@ -20,10 +20,6 @@ for( i=0; i<24; i++ ) {
     } else{};   
 };
 
-
-
-
-
 // set tasks to local storage on button click
 
   $(".saveBtn").click(function() {
@@ -36,6 +32,7 @@ for( i=0; i<24; i++ ) {
     localStorage.setItem("tasks" + i, (tasksa));
     
   }});
+
 // pull from local storage
 
 $('#7').html(localStorage.tasks7);
