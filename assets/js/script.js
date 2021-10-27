@@ -52,13 +52,13 @@ $('#19').html(localStorage.tasks19);
 // automatically refresh page
 setTimeout(function() {
     location.reload();
-  }, 300000);
+  }, 180000);
   console.log(hour);
 
 //clear text areas after the day is over at 10PM at night
 $(document).ready(function() {
     
-    if(hour == 22){
+    if(hour == 20){
     localStorage.clear();
     setTimeout(function () {
         location.reload(true);
